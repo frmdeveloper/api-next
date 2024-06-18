@@ -11,7 +11,9 @@
   "dependencies": {
     "axios": "^1.7.2",
     "cheerio": "^1.0.0-rc.12",
+    "file-type": "^19.0.0",
     "next": "^15.0.0-rc.0",
+    "rand-user-agent": "^2.0.68",
     "react": "^19.0.0-rc-107a2f8c3e-20240617",
     "react-dom": "^19.0.0-rc-107a2f8c3e-20240617"
   }
