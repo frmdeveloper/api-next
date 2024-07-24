@@ -1,7 +1,6 @@
 export default async function handler(req, res) {
-  if (req.method != 'POST') return res.json({error:"Only POST"})
   try {
-    const p = await anime(req.body.title)
+    const p = await anime(req.query?.title || req.body?.title)
     res.json(p)
   } catch (e) {
     res.json({error:e+""})
